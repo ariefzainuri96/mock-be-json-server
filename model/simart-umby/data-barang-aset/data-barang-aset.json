@@ -1,0 +1,24 @@
+{
+    "status": 200,
+    "message": "success",
+    "data": [
+        {
+            "id": 1,
+            "namaAset": "Komputer aset untuk admin 1",
+            "noAset": "INV-GR-FTI-129182",
+            "jumlahAset": "12",
+            "location": "Ruang 4D",
+            "deskripsi": "Deskripsi Komputer aset untuk admin 1",
+            "spesifikasi": "Spesifikasi Komputer aset untuk admin 1"
+        },
+        {
+            "id": 2,
+            "namaAset": "Komputer aset untuk admin 2",
+            "noAset": "INV-GR-FTI-1231",
+            "jumlahAset": "9",
+            "location": "Ruang 4D",
+            "deskripsi": "Deskripsi Komputer aset untuk admin 2",
+            "spesifikasi": "Spesifikasi Komputer aset untuk admin 2"
+        }
+    ]
+}

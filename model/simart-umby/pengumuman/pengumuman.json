@@ -1,0 +1,24 @@
+{
+    "status": 200,
+    "message": "success",
+    "data": [
+        {
+            "id": 1,
+            "title": "Test Pengumuman",
+            "date": "5 Februari 2023",
+            "pengumuman": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque enim gravida massa in praesent dictum orci blandit diam. Quis duis purus senectus sit pellentesque. Baca Selengkapnya"
+        },
+        {
+            "id": 2,
+            "title": "Test Pengumuman 2",
+            "date": "5 Februari 2023",
+            "pengumuman": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque enim gravida massa in praesent dictum orci blandit diam. Quis duis purus senectus sit pellentesque. Baca Selengkapnya"
+        },
+        {
+            "id": 3,
+            "title": "Test Pengumuman 3",
+            "date": "5 Februari 2023",
+            "pengumuman": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque enim gravida massa in praesent dictum orci blandit diam. Quis duis purus senectus sit pellentesque. Baca Selengkapnya"
+        }
+    ]
+}

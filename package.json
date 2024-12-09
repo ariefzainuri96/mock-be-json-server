@@ -1,0 +1,15 @@
+{
+  "name": "mock-be-json-server",
+  "version": "1.0.0",
+  "scripts": {
+    "simart-umby-db": "node ./scripts/simart-umby-generate.js",
+    "simart-umby": "npm run simart-umby-db && npx json-server --watch ./scripts/db.json --port 9000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
