@@ -46,5 +46,26 @@
         "spesifikasi": "Spesifikasi Komputer aset untuk admin 2"
       }
     ]
+  },
+  "users": {
+    "status": 200,
+    "message": "success",
+    "data": [
+      {
+        "id": 1,
+        "name": "admin",
+        "email": "admin@admin.com",
+        "password": "admin"
+      }
+    ]
+  },
+  "login": {
+    "status": 200,
+    "message": "success",
+    "data": {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@admin.com"
+    }
   }
 }

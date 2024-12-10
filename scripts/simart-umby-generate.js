@@ -4,11 +4,15 @@ const path = require('path');
 // Load your JSON files
 const pengumuman = require('../model/simart-umby/pengumuman/pengumuman.json');
 const dataBarangAset = require('../model/simart-umby/data-barang-aset/data-barang-aset.json');
+const users = require('../model/simart-umby/users/users.json');
+const login = require('../model/simart-umby/login/login.json');
 
 // Merge the JSON data
 const mergedDb = {
     pengumuman: pengumuman,
     dataBarangAset: dataBarangAset,
+    users: users,
+    login: login
 };
 
 // Write the merged JSON to db.json
