@@ -67,5 +67,38 @@
       "name": "admin",
       "email": "admin@admin.com"
     }
+  },
+  "pemindahanAset": {
+    "status": 200,
+    "message": "success",
+    "data": [
+      {
+        "noPemindahan": "1298192",
+        "tanggal": "2020-01-01",
+        "lokasiAsal": "Ruang 4D",
+        "lokasiTujuan": "Ruang 5D",
+        "detailPeminjaman": {
+          "namaAset": "Aset 1",
+          "jumlah": 1,
+          "satuan": "Unit",
+          "lokasiAsal": "Ruang 4D",
+          "lokasiTujuan": "Ruang 5D"
+        },
+        "historyPersetujuan": [
+          {
+            "disetujuiOleh": "Testing",
+            "status": "Oke",
+            "tanggal": "2020-01-01",
+            "keterangan": "Lorem ipsum dolor sit amet"
+          },
+          {
+            "disetujuiOleh": "Testing",
+            "status": "Oke",
+            "tanggal": "2020-01-01",
+            "keterangan": "Lorem ipsum dolor sit amet"
+          }
+        ]
+      }
+    ]
   }
 }

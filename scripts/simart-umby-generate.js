@@ -6,13 +6,15 @@ const pengumuman = require('../model/simart-umby/pengumuman/pengumuman.json');
 const dataBarangAset = require('../model/simart-umby/data-barang-aset/data-barang-aset.json');
 const users = require('../model/simart-umby/users/users.json');
 const login = require('../model/simart-umby/login/login.json');
+const pemindahanAset = require('../model/simart-umby/pemindahan-aset/pemindahan-aset.json');
 
 // Merge the JSON data
 const mergedDb = {
     pengumuman: pengumuman,
     dataBarangAset: dataBarangAset,
     users: users,
-    login: login
+    login: login,
+    pemindahanAset: pemindahanAset,
 };
 
 // Write the merged JSON to db.json
