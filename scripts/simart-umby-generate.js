@@ -7,6 +7,7 @@ const dataBarangAset = require('../model/simart-umby/data-barang-aset/data-baran
 const users = require('../model/simart-umby/users/users.json');
 const login = require('../model/simart-umby/login/login.json');
 const pemindahanAset = require('../model/simart-umby/pemindahan-aset/pemindahan-aset.json');
+const profile = require('../model/simart-umby/profile/profile.json');
 
 // Merge the JSON data
 const mergedDb = {
@@ -15,6 +16,7 @@ const mergedDb = {
     users: users,
     login: login,
     pemindahanAset: pemindahanAset,
+    profile: profile
 };
 
 // Write the merged JSON to db.json
