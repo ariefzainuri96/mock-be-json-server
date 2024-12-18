@@ -1,0 +1,20 @@
+{
+    "status": 200,
+    "message": "success",
+    "data": [
+        {
+            "id": 1,
+            "disetujuiOleh": "Testing",
+            "status": "Oke",
+            "tanggal": "2020-01-01",
+            "keterangan": "Lorem ipsum dolor sit amet"
+        },
+        {
+            "id": 2,
+            "disetujuiOleh": "Testing 2",
+            "status": "Oke",
+            "tanggal": "2024-01-01",
+            "keterangan": "Lorem ipsum dolor sit amet 2"
+        }
+    ]
+}
